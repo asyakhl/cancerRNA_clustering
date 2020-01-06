@@ -31,11 +31,11 @@ Gene expression data was imported and stored as *rna.data*, while cancer labels 
 ```{r, message=FALSE, cache=TRUE}
 library(dplyr)
 rna.labs=read.csv(
-"https://media.githubusercontent.com/media/asyakhl/QSAR_clustering/master/data/labels.csv", 
+"https://media.githubusercontent.com/media/asyakhl/cancerRNA_clustering/master/data/labels.csv", 
   header=T)
 rna.labs=as.character(rna.labs$Class)
 rna.data=read.csv(
- "https://media.githubusercontent.com/media/asyakhl/QSAR_clustering/master/data/data.csv", 
+"https://media.githubusercontent.com/media/asyakhl/cancerRNA_clustering/master/data/data.csv", 
   header = T)
 ```
 First column (gene names) of the data set was deleted. Columns (genes) with zero expression were deleted from the data set, resulting in 20,264 features.
