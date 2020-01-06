@@ -6,7 +6,7 @@ on their gene expression profiles.
 
 Code: *cancerRNA_markdown.Rmd*
 
-Project *Explanation: cancerRNA_clustering.pdf*
+Project Explanation: *cancerRNA_clustering.pdf*
 
 **Data Set**
 
