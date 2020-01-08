@@ -2,7 +2,7 @@
 
 I use unsupervised learning methods (PCA, hierarchical clustering, 
 and k-means clustering) to subgroup cancer samples into one of 5 clusters based
-on their gene expression profiles, 20, 531 genes expression measurements. 
+on their gene expression profiles, 20, 531 gene expression measurements. 
 
 Code: *cancerRNA_markdown.Rmd*
 
