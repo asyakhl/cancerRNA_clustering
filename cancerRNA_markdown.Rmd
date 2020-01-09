@@ -1,6 +1,5 @@
 ---
-title: Use of PCA, hierarchical clustering, and k-means to group cancers by type using
-  their gene expression profiles as features
+title: Use of PCA, hierarchical clustering, and k-means to group cancer samles by type using their gene expression profiles as features
 author: "Asya Khleborodova"
 date: '2018-12-17'
 output:
@@ -28,7 +27,7 @@ Cancer types are characterized by their gene expression patterns. It follows tha
 ### Data Preparation and Wrangling
 
 Gene expression data was imported and stored as *rna.data*, while cancer labels for 801 samples were stored as *rna.labs*.
-```{r, message=FALSE, cache=TRUE}
+```{r message=FALSE, cache=TRUE}
 library(dplyr)
 rna.labs=read.csv(
 "https://media.githubusercontent.com/media/asyakhl/cancerRNA_clustering/master/data/labels.csv", 

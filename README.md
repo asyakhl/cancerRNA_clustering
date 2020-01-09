@@ -6,7 +6,7 @@ on their gene expression profiles, 20, 531 gene expression measurements.
 
 Code: *cancerRNA_markdown.Rmd*
 
-Project Explanation: *cancerRNA_clustering.pdf*
+Project Presentation: *cancerRNA_clustering.pdf*
 
 **Data Set**
 
